@@ -1,6 +1,6 @@
-# Servico-Web-REST
+# To-Do-List
 
-## Este repositório foi criado para desenvolvimento de um sistema de gerenciamento de tarefas (to do list), da disciplina GCC129 - Sistemas Distribuídos.
+Este repositório foi criado para desenvolvimento de um sistema de gerenciamento de tarefas (to do list), da disciplina GCC129 - Sistemas Distribuídos.
 
 ### Descrição geral
 
