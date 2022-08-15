@@ -1,0 +1,246 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2022-08-15T14:42:36.199Z",
+    "__export_source": "insomnia.desktop.app:v2022.4.2",
+    "resources": [
+        {
+            "_id": "req_f94e7f8ed4774999bdf3272c1fc92e3c",
+            "parentId": "fld_686c19239d0d4aecac88b28428f3c5cc",
+            "modified": 1660570572408,
+            "created": 1660570499017,
+            "url": "http://localhost:3000/tarefas",
+            "name": "Retorna uma lista de tarefas",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1660570499017,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "fld_686c19239d0d4aecac88b28428f3c5cc",
+            "parentId": "wrk_0a2213f9a28d49068b5745a69502419a",
+            "modified": 1660574525363,
+            "created": 1660570497479,
+            "name": "ToDoListRequests",
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1660570497479,
+            "_type": "request_group"
+        },
+        {
+            "_id": "wrk_0a2213f9a28d49068b5745a69502419a",
+            "parentId": null,
+            "modified": 1637694976835,
+            "created": 1632480850171,
+            "name": "Requests",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_f62b3e93a8cb439192488afdf29bfe71",
+            "parentId": "fld_686c19239d0d4aecac88b28428f3c5cc",
+            "modified": 1660571158377,
+            "created": 1660570660855,
+            "url": "http://localhost:3000/tarefas/62fa4dc67b562536f1eb878f",
+            "name": "Retorna uma tarefa pelo id",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1659670892592,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_97154302237042f58e9b74b7c22704e0",
+            "parentId": "fld_686c19239d0d4aecac88b28428f3c5cc",
+            "modified": 1660574508365,
+            "created": 1660570726155,
+            "url": "http://localhost:3000/tarefas/62fa4d9a7b562536f1eb878d",
+            "name": "Atualiza uma tarefa pelo id",
+            "description": "",
+            "method": "PUT",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n  \"descricao\": \"Buscar roupa na lavanderia.\",\n\t\"prazo\": \"2022-08-14T02:10:21.729Z\",\n\t\"completa\": true\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_8d525bfbfd01405ba172a9a5a56d7e5d"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1659221089379.5,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_92580a092e2944918d3f8206a331c6fa",
+            "parentId": "fld_686c19239d0d4aecac88b28428f3c5cc",
+            "modified": 1660574510571,
+            "created": 1660570587750,
+            "url": "http://localhost:3000/tarefas/",
+            "name": "Cria uma nova tarefa",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n  \"descricao\": \"Estudar para SD\",\n  \"prazo\": \"2022-08-15T02:10:00.729Z\",\n  \"completa\": false\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_50da9449eaf94519a85494866428582b"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1658771286167,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_1fa6bc19d9d249ffbe2e2bc315d6d844",
+            "parentId": "fld_686c19239d0d4aecac88b28428f3c5cc",
+            "modified": 1660570939376,
+            "created": 1660570934521,
+            "url": "http://localhost:3000/tarefas/62fa4bf5fc79db2d3c01a70c",
+            "name": "Exclui uma tarefa pelo id",
+            "description": "",
+            "method": "DELETE",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1658771286117,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_b3229433f066c1f8ac6575e4c9502e3aa8680611",
+            "parentId": "wrk_0a2213f9a28d49068b5745a69502419a",
+            "modified": 1657589845195,
+            "created": 1632480850191,
+            "name": "Base Environment",
+            "data": {
+                "tokenAdemir": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MTlkM2EwYWQ2YjM1N2FhMDM2OWYyZjIiLCJub21lIjoiQWRtaW5pc3RyYcOnw6NvIEJ1Y2hpbmhvIENoZWlvIiwiZW1haWwiOiJhZG1pbkBidWNoaW5ob2NoZWlvLmNvbS5iciIsInBlcm1pc3NhbyI6dHJ1ZSwiaWF0IjoxNjM4MjI5MjA0LCJleHAiOjE2MzgzMTU2MDR9.ZZZaTlqxqTXESdLQNbxZpnoi-7YfAxUlASHwgQNbWwE"
+            },
+            "dataPropertyOrder": {
+                "&": [
+                    "tokenAdemir"
+                ]
+            },
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1632480850191,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_b3229433f066c1f8ac6575e4c9502e3aa8680611",
+            "parentId": "wrk_0a2213f9a28d49068b5745a69502419a",
+            "modified": 1656968094603,
+            "created": 1632480850201,
+            "name": "Default Jar",
+            "cookies": [
+                {
+                    "key": "JSESSIONID",
+                    "value": "FF48733C140EF442DC3DEED0ABF32B4F",
+                    "domain": "localhost",
+                    "path": "/",
+                    "httpOnly": true,
+                    "hostOnly": true,
+                    "creation": "2021-10-15T18:23:46.982Z",
+                    "lastAccessed": "2021-10-15T18:25:31.571Z",
+                    "id": "4544276582221638"
+                },
+                {
+                    "key": "connect.sid",
+                    "value": "s%3AYxP4AATCx76rIsHNG8x87arNiGCgiiZN.UEkFbuM24fV03lGjBZtQRXcdw3cU%2BHHs6MKktpUAuJU",
+                    "domain": "localhost",
+                    "path": "/",
+                    "httpOnly": true,
+                    "hostOnly": true,
+                    "creation": "2022-05-16T00:02:14.986Z",
+                    "lastAccessed": "2022-05-16T00:02:14.986Z",
+                    "id": "8405227477124524"
+                },
+                {
+                    "key": "session",
+                    "value": "eyJjYXNfcmV0dXJuX3RvIjoiL2xvZ2luL3VmbGEifQ==",
+                    "domain": "177.105.60.54",
+                    "path": "/",
+                    "httpOnly": true,
+                    "hostOnly": true,
+                    "creation": "2022-07-04T20:54:54.600Z",
+                    "lastAccessed": "2022-07-04T20:54:54.600Z",
+                    "id": "9362622857289746"
+                },
+                {
+                    "key": "session.sig",
+                    "value": "pEGZQu99FGTImPbOi3AlgzV0Bd8",
+                    "domain": "177.105.60.54",
+                    "path": "/",
+                    "httpOnly": true,
+                    "hostOnly": true,
+                    "creation": "2022-07-04T20:54:54.600Z",
+                    "lastAccessed": "2022-07-04T20:54:54.600Z",
+                    "id": "1250888223427422"
+                }
+            ],
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "spc_121d3ae1a27b41f4a38fff33d9d0b825",
+            "parentId": "wrk_0a2213f9a28d49068b5745a69502419a",
+            "modified": 1632480850174,
+            "created": 1632480850174,
+            "fileName": "gt-chefs-3",
+            "contents": "",
+            "contentType": "yaml",
+            "_type": "api_spec"
+        }
+    ]
+}

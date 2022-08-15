@@ -6,6 +6,8 @@ Este repositório foi criado para desenvolvimento de um sistema de gerenciamento
 
 - [Swagger - Tarefas API](https://app.swaggerhub.com/apis-docs/neumar/Tarefas/1.0.0)
 
+
+
 ### Instale as dependências
 $ npm install
 
@@ -19,6 +21,7 @@ $ npm run dev
 - [Node.js](https://nodejs.org/en/download/)
 - [MongoDB](https://www.mongodb.com/try/download/community)
 - [MongoDBCompass](https://www.mongodb.com/try/download/compass)
+- [Insomnia](https://insomnia.rest/download)
 
 - node v14.19.0
 - npm v6.14.16
