@@ -9,10 +9,10 @@ Este repositório foi criado para desenvolvimento de um sistema de gerenciamento
 - [Import Requests Example](https://github.com/lcbessa/Servico-Web-REST/blob/master/Insomnia_2022-08-15.json)
 
 ### Instale as dependências
-$ npm install
+`$ npm install`
 
 Execute a aplicação em modo de desenvolvimento
-$ npm run dev
+`$ npm run dev`
 
 ### O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 
