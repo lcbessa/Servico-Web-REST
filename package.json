@@ -1,0 +1,26 @@
+{
+  "name": "servico-web-rest",
+  "version": "1.0.0",
+  "description": "Trabalho prático de sistemas distribuídos - serviço web rest",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon --exec babel-node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcbessa/Servico-Web-REST.git"
+  },
+  "author": "Luiz Carlos Bessa e Taiane Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lcbessa/Servico-Web-REST/issues"
+  },
+  "homepage": "https://github.com/lcbessa/Servico-Web-REST#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
