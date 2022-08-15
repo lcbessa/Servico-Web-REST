@@ -1,11 +1,10 @@
 {
   "name": "servico-web-rest",
   "version": "1.0.0",
-  "type": "module",
   "description": "Trabalho prático de sistemas distribuídos - serviço web rest",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec babel-node ./src/index.js"
+    "dev": "nodemon -r esm ./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,9 +17,10 @@
   },
   "homepage": "https://github.com/lcbessa/Servico-Web-REST#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "esm": "^3.2.25",
     "express": "^4.18.1",
-    "mongoose": "^6.5.2",
-    "@babel/polyfill": "^7.12.1"
+    "mongoose": "^6.5.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.19",

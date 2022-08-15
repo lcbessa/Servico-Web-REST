@@ -3,6 +3,10 @@ import Tarefa from '../schemas/Tarefa';
 
 const router = new Router();
 
+router.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
 router.get('/tarefas', (req, res) => {
   Tarefa.find()
     .then((tarefa) => {
